@@ -1,6 +1,6 @@
 # Sample Flask application on Heroku
 
-Sample Python Flask TODO application deployed on Heroku
+Python Flask TODO Application deployed on Heroku
 
 ## Used Technology:
  - [Heroku: Cloud Application Platform](https://www.heroku.com/)
