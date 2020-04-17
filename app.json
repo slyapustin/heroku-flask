@@ -1,0 +1,29 @@
+{
+  "name": "heroku-flask",
+  "description": "Heroku Flask Sample TODO Application",
+  "repository": "https://github.com/slyapustin/heroku-flask",
+  "keywords": [
+    "flask",
+    "heroku",
+    "todo",
+    "python"
+  ],
+  "env": {
+    "SECRET_KEY": {
+      "description": "A secret key for a particular Flask installation.",
+      "generator": "secret"
+    },
+    "FLASK_APP": "todo",
+    "FLASK_ENV": "production"
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ],
+  "addons": [
+    "heroku-postgresql:hobby-dev",
+    "memcachier:dev",
+    "papertrail"
+  ]
+}
